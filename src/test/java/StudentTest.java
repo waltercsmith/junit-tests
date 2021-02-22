@@ -35,8 +35,6 @@ public class StudentTest {
 
         assertEquals(grades,moreGrades);
     }
-//    public class Student {
-//
-//    }
+
 
 }
