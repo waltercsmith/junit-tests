@@ -10,9 +10,14 @@ public class Student {
     }
 
 
+//    adds the given grade to the grades list
+    public void addGrade(int grade){
+        this.studentGrades.add(grade);
+    }
 
 
-    // returns the student's name
+
+//     returns the student's name
     public String getStudentName() {
         return studentName;
     }
@@ -20,7 +25,7 @@ public class Student {
     String studentName;
 
 
-    // returns the student's id
+//     returns the student's id
     public long getStudentId() {
         return studentId;
     }
@@ -28,7 +33,7 @@ public class Student {
     long studentId;
 
 
-    // returns the list of grades
+//     returns the list of grades
 
     public ArrayList<Integer> getStudentGrades() {
         return studentGrades;
